@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Manifest for LineageOS and LineageOS based roms-->
+<manifest>
+
+	<remote name="nx-github"
+			fetch="https://github.com/"
+			revision="nx-8.0" />
+	<remote name="fdroid" fetch="https://gitlab.com/" />
+
+	<!-- Vendor folder -->
+	<project path="vendor/nexus" name="TeamNexus/android_vendor_nexus" remote="nx-github" />
+	
+	<!-- F-Droid -->
+	<project path="packages/apps/FDroidPrivilegedExtension"
+			 name="fdroid/privileged-extension.git" remote="fdroid"
+			 revision="refs/tags/0.2" />
+
+
+</manifest>
