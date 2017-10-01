@@ -1,4 +1,4 @@
-LineageOS
+NexusOS
 ===========
 
 Submitting Patches
@@ -28,12 +28,12 @@ To view the status of your and others' patches, visit [LineageOS Code Review](ht
 Getting Started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
+To get started with Android/NexusOS, you'll need to get
 familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the LineageOS trees, use a command like this:
+To initialize your local repository using the NexusOS trees, use a command like this:
 
-    repo init -u git://github.com/LineageOS/android.git -b lineage-15.0
+    repo init -u git://github.com/TeamNexus/android.git -b nx-8.0
 
 Then to sync up:
 
