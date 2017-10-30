@@ -516,8 +516,11 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- GZOSP CAF manifest -->
+  <!-- GZOSP manifest -->
   <include name="gzosp_default.xml" />
+
+  <!-- NexusOS manifest -->
+  <include name="nexus_default.xml" />
 
   <!-- GZOSP CAF manifest -->
   <include name="caf_default.xml" />
