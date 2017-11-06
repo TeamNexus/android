@@ -8,7 +8,7 @@ Getting started
 
 To initialize your local repository, use this command:
 
-	repo init -u https://github.com/NexusOS/manifest.git -b 8.0
+	repo init -u https://github.com/TeamNexus/manifest.git -b 8.0
 
 After that, start to sync the sources
 
