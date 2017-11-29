@@ -39,7 +39,6 @@
   <project path="external/toybox" name="external_toybox" groups="pdk" remote="gzosp" />
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" groups="pdk" remote="gzosp" />
   <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="gzosp" />
-  <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="gzosp" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="gzosp" />
   <project path="hardware/gzosp/interfaces" name="hardware_gzosp_interfaces" remote="gzosp" >
       <copyfile dest="hardware/gzosp/Android.bp" src="Android.bp"/>

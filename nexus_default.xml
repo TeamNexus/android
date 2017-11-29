@@ -21,11 +21,12 @@
 
     <project path="bionic" name="TeamNexus/android_bionic" groups="pdk" remote="nexus" />
     <project path="frameworks/base" name="TeamNexus/android_frameworks_base" remote="nexus" />
+    <project path="frameworks/native" name="TeamNexus/android_frameworks_native" remote="nexus" />
     <project path="hardware/interfaces" name="TeamNexus/android_hardware_interfaces" groups="pdk" remote="nexus" />
     <project path="hardware/libhardware" name="TeamNexus/android_hardware_libhardware" remote="nexus" />
     <project path="packages/apps/Settings" name="TeamNexus/android_packages_apps_Settings" groups="pdk-fs" remote="nexus" />
     <project path="system/core" name="TeamNexus/android_system_core" groups="pdk" remote="nexus" />
-  
+
     <!-- NexusOS additions -->
     <project path="vendor/nexus" name="TeamNexus/android_vendor_nexus" remote="nexus" />
     <project path="packages/apps/FDroidPrivilegedExtension"
