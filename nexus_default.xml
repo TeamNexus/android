@@ -20,7 +20,6 @@
     </project>
 
     <project path="bionic" name="TeamNexus/android_bionic" groups="pdk" remote="nexus" />
-    <project path="bootable/recovery" name="TeamNexus/bootable_recovery" groups="pdk" remote="nexus" />
     <project path="frameworks/base" name="TeamNexus/android_frameworks_base" remote="nexus" />
     <project path="frameworks/native" name="TeamNexus/android_frameworks_native" remote="nexus" />
     <project path="hardware/interfaces" name="TeamNexus/android_hardware_interfaces" groups="pdk" remote="nexus" />
