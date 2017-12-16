@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <remote name="nexus"
+            fetch="https://github.com"
+            revision="nx-8.1" />
+
+    <remote name="fdroid" fetch="https://gitlab.com/" />
+
+    <!-- NexusOS -->
+    <project path="android" name="TeamNexus/android" remote="nexus" />
+    <project path="prebuilts/linaro" name="TeamNexus/android_prebuilts_linaro" groups="pdk,linux,x86_64" remote="nexus" />
+    <project path="vendor/nexus" name="TeamNexus/android_vendor_nexus" remote="nexus" />
+
+    <project path="packages/apps/FDroidPrivilegedExtension"
+             name="fdroid/privileged-extension.git"
+             remote="fdroid"
+             revision="refs/tags/0.2.7" />
+
+</manifest>
