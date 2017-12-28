@@ -8,22 +8,18 @@
   <!--<project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />-->
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
   <project path="external/htop" name="LineageOS/android_external_htop" />
-  <!--<project path="external/koush/ion" name="LineageOS/ion" />-->
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
   <project path="external/libnfc-nxp" name="LineageOS/android_external_libnfc-nxp" />
   <project path="external/libtar" name="LineageOS/android_external_libtar" />
-  <!--<project path="external/libtruezip" name="LineageOS/android_external_libtruezip" />-->
   <project path="external/lineage-sdk-api-coverage" name="LineageOS/android_external_lineage-sdk-api-coverage" />
-  <!--<project path="external/lzo" name="LineageOS/android_external_lzo" />-->
   <project path="external/nano" name="LineageOS/android_external_nano" />
   <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" />
   <!--<project path="external/p7zip" name="LineageOS/android_external_p7zip" />-->
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
-  <!--<project path="external/rsync" name="LineageOS/android_external_rsync" />-->
+  <project path="external/rsync" name="LineageOS/android_external_rsync" />
   <!--<project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />-->
   <!--<project path="external/unrar" name="LineageOS/android_external_unrar" />-->
-  <!--<project path="external/unzip" name="LineageOS/android_external_unzip" />-->
-  <!--<project path="external/vim" name="LineageOS/android_external_vim" />-->
+  <project path="external/vim" name="LineageOS/android_external_vim" />
   <!--<project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />-->
   <!--<project path="external/zip" name="LineageOS/android_external_zip" />-->
   <project path="frameworks/opt/hardware" name="LineageOS/android_frameworks_opt_hardware" />
@@ -79,7 +75,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8994" />
   <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8996" />
-  <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="staging/lineage-15.1-caf-8998" />
   <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" groups="qcom,pdk" revision="lineage-15.0-caf" />
   <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8916" />
@@ -89,7 +85,7 @@
   <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/lineage-15.1-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8994" />
   <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/lineage-15.1-caf-8996" />
-  <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/display-caf/msm8998" name="LineageOS/android_hardware_qcom_display" groups="pdk,qcom,qcom_display" revision="staging/lineage-15.1-caf-8998" />
   <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" groups="qcom,qcom_fm" />
   <project path="hardware/qcom/media-caf/apq8084" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8084" />
   <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8916" />
@@ -99,7 +95,7 @@
   <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="staging/lineage-15.1-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8996" />
-  <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.0-caf-8998" />
+  <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk" revision="staging/lineage-15.1-caf-8998" />
   <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" groups="qcom_wlan,pdk" revision="lineage-15.0-caf" />
   <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" groups="pdk" revision="staging/lineage-15.1-caf" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
@@ -120,7 +116,6 @@
   <project path="lineage/jenkins" name="LineageOS/hudson" groups="infra" revision="master" />
   <project path="lineage/mirror" name="LineageOS/mirror" groups="infra" revision="master" />
   <project path="lineage/slackbot" name="LineageOS/slackbot" groups="infra" revision="master" />
-  <project path="lineage/updater" name="LineageOS/lineageos_updater" groups="infra" revision="master" />
   <project path="lineage/website" name="LineageOS/www" groups="infra" revision="master" />
   <project path="lineage/wiki" name="LineageOS/lineage_wiki" groups="infra" revision="master" />
 
