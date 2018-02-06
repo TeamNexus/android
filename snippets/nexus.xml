@@ -9,6 +9,9 @@
 
     <!-- NexusOS -->
     <project path="android" name="TeamNexus/android" remote="nexus" />
+    <project path="hardware/nexus/interfaces" name="TeamNexus/android_hardware_nexus_interfaces" remote="nexus">
+        <copyfile dest="hardware/nexus/Android.bp" src="Android.bp"/>
+    </project>
     <project path="prebuilts/linaro" name="TeamNexus/android_prebuilts_linaro" groups="pdk,linux,x86_64" remote="nexus" />
     <project path="vendor/nexus" name="TeamNexus/android_vendor_nexus" remote="nexus" />
 
