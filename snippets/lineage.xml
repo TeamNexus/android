@@ -5,7 +5,6 @@
   <project path="device/lineage/sepolicy" name="LineageOS/android_device_lineage_sepolicy" />
   <project path="external/bash" name="LineageOS/android_external_bash" />
   <project path="external/exfat" name="LineageOS/android_external_exfat" />
-  <!--<project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" />-->
   <project path="external/fuse" name="LineageOS/android_external_fuse" />
   <project path="external/htop" name="TeamNexus/android_external_htop" remote="nexus" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" />
@@ -19,15 +18,14 @@
   <project path="external/p7zip" name="LineageOS/android_external_p7zip" />
   <project path="external/pigz" name="LineageOS/android_external_pigz" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <!--<project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" />-->
   <project path="external/unrar" name="LineageOS/android_external_unrar" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
-  <!--<project path="external/yaffs2" name="LineageOS/android_external_yaffs2" />-->
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="hardware/lineage/interfaces" name="TeamNexus/android_hardware_lineage_interfaces" remote="nexus" >
     <copyfile dest="hardware/lineage/Android.bp" src="Android.bp"/>
   </project>
   <project path="hardware/lineage/lineagehw" name="LineageOS/android_hardware_lineage_lineagehw" />
+  <project path="hardware/lineage/telephony" name="LineageOS/android_hardware_lineage_telephony" />
   <!--<project path="hardware/ti/omap4" name="LineageOS/android_hardware_ti_omap4" />-->
   <!--<project path="hardware/ti/wlan" name="LineageOS/android_hardware_ti_wlan" />-->
   <!--<project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />-->
@@ -41,7 +39,7 @@
   <!--<project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />-->
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
   <project path="packages/apps/Jelly" name="LineageOS/android_packages_apps_Jelly" />
-  <!--<project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />-->
+  <project path="packages/apps/LineageCustomizer" name="LineageOS/android_packages_apps_LineageCustomizer" />
   <project path="packages/apps/LineageParts" name="TeamNexus/android_packages_apps_LineageParts" remote="nexus" />
   <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
@@ -50,7 +48,6 @@
   <project path="packages/apps/Trebuchet" name="LineageOS/android_packages_apps_Trebuchet" />
   <project path="packages/apps/Updater" name="LineageOS/android_packages_apps_Updater" />
   <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
-  <!--<project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />-->
   <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
   <project path="prebuilts/lineage-sdk" name="LineageOS/android_prebuilts_lineage-sdk" clone-depth="1" />
   <project path="system/extras/su" name="TeamNexus/android_system_extras_su" remote="nexus" />
